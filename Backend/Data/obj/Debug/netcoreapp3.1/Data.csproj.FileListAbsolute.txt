@@ -1,0 +1,12 @@
+D:\Dhruv Interview\ProductManagement\Backend\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+D:\Dhruv Interview\ProductManagement\Backend\Data\bin\Debug\netcoreapp3.1\Data.dll
+D:\Dhruv Interview\ProductManagement\Backend\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+D:\Dhruv Interview\ProductManagement\Backend\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+D:\Dhruv Interview\ProductManagement\Backend\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+D:\Dhruv Interview\ProductManagement\Backend\Data\bin\Debug\netcoreapp3.1\Data.pdb
+D:\Dhruv Interview\ProductManagement\Backend\Data\obj\Debug\netcoreapp3.1\Data.dll
+D:\Dhruv Interview\ProductManagement\Backend\Data\obj\Debug\netcoreapp3.1\Data.pdb
+D:\Dhruv Interview\ProductManagement\Backend\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+D:\Dhruv Interview\ProductManagement\Backend\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+D:\Dhruv Interview\ProductManagement\Backend\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+D:\Dhruv Interview\ProductManagement\Backend\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache

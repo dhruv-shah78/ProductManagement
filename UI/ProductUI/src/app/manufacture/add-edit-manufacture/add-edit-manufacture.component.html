@@ -1,0 +1,31 @@
+<div class="container">
+  <h5>Horizontal and Fluid</h5>
+  <form [formGroup]="manufactureForm" (ngSubmit)="saveOrUpdate()">
+    <div class="ui-fluid">
+      <div class="p-field p-grid">
+        <span>Manufacture Name</span>
+        <div class="p-col-12 p-md-12">
+          <input type="text" pInputText class="p-inputtext-lg" placeholder="Large" formControlName="manufactureName"
+            class="form-control" [ngClass]="{ 'is-invalid': form.manufactureName.errors }">
+          <div *ngIf="submitted && form.manufactureName.errors" class="invalid-feedback">
+            <div *ngIf="submitted && form.manufactureName.errors.required">Manufacture Name is required</div>
+          </div>
+        </div>
+      </div>
+      <div class="p-field p-grid">
+        <span>Vehicle</span>
+        <div class="p-col-12 p-md-12">
+          <input type="text" pInputText class="p-inputtext-lg" placeholder="Large"
+            [ngClass]="{ 'is-invalid': submitted && form.vehicle.errors }" formControlName="vehicle">
+          <div *ngIf="submitted && form.vehicle.errors" class="invalid-feedback">
+            <div *ngIf="form.vehicle.errors.required">Vehicle is required</div>
+          </div>
+        </div>
+      </div>
+      <button pButton type="button" class="p-button-warning p-button-rounded pr-2" label="{{btnLable}}"
+        (click)="saveOrUpdate()"></button>
+      <button pButton type="button" class="p-button-success p-button-rounded pr-2" label="Go to list page"
+        routerLink="/manufacture"></button>
+    </div>
+  </form>
+</div>
